@@ -1,0 +1,196 @@
+Name:         builder-dockercfg-57rk9
+Namespace:    test
+Labels:       <none>
+Annotations:  kubernetes.io/service-account.name: builder
+              kubernetes.io/service-account.uid: 51a79514-d17e-4f5e-8da7-f4b6267d73d6
+              openshift.io/token-secret.name: builder-token-ncmqr
+              openshift.io/token-secret.value:
+                eyJhbGciOiJSUzI1NiIsImtpZCI6IjhpdXZidUJkdmplSFZnYjdDOERXNDR2dFNiazBncVVuNnB3Yk5lUHJjNlUifQ.eyJpc3MiOiJrdWJlcm5ldGVzL3NlcnZpY2VhY2NvdW50Iiw...
+
+Type:  kubernetes.io/dockercfg
+
+Data
+====
+.dockercfg:  12146 bytes
+
+
+Name:         builder-token-ncmqr
+Namespace:    test
+Labels:       kubernetes.io/legacy-token-last-used=2024-01-11
+Annotations:  kubernetes.io/created-by: openshift.io/create-dockercfg-secrets
+              kubernetes.io/service-account.name: builder
+              kubernetes.io/service-account.uid: 51a79514-d17e-4f5e-8da7-f4b6267d73d6
+
+Type:  kubernetes.io/service-account-token
+
+Data
+====
+namespace:       4 bytes
+service-ca.crt:  8422 bytes
+token:           eyJhbGciOiJSUzI1NiIsImtpZCI6IjhpdXZidUJkdmplSFZnYjdDOERXNDR2dFNiazBncVVuNnB3Yk5lUHJjNlUifQ.eyJpc3MiOiJrdWJlcm5ldGVzL3NlcnZpY2VhY2NvdW50Iiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9uYW1lc3BhY2UiOiJ0ZXN0Iiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9zZWNyZXQubmFtZSI6ImJ1aWxkZXItdG9rZW4tbmNtcXIiLCJrdWJlcm5ldGVzLmlvL3NlcnZpY2VhY2NvdW50L3NlcnZpY2UtYWNjb3VudC5uYW1lIjoiYnVpbGRlciIsImt1YmVybmV0ZXMuaW8vc2VydmljZWFjY291bnQvc2VydmljZS1hY2NvdW50LnVpZCI6IjUxYTc5NTE0LWQxN2UtNGY1ZS04ZGE3LWY0YjYyNjdkNzNkNiIsInN1YiI6InN5c3RlbTpzZXJ2aWNlYWNjb3VudDp0ZXN0OmJ1aWxkZXIifQ.hqOXYdrc2w0juU3iLOiLQuLli8Z3eQ0N6tJ9OhjrgdnM7ShQyWl8bUYmCDBWK6XbpWAH0jfhWNnMaNGn7edppSGR9FiQvBe5M17voYVuSucsl5kdAdD3Nob4aMunrgiIuYh2iz2FkvBper0NhpeONjWbaOnMhroIgbuZ0LdArwDRWrPA6Mbe5daujBZZlB4CPdNBK74yE0Kt5_64VKBPSnDDtRoBmOdPfxb-aHjBJ__rS3y6lxjBiDG-AY3tL8SMFjF3JuxNBX5OgJBKlGcKD54ag2hrc1vtrvtOMrD2ild2wsVRjZ5B-TKLvpnF8XMgQaX78cNVTbmKUv_JpNesWBiCX4PaCsF1_mpGnDH6AMuEbaSDgZ6KxzRSQmuJvYGhsVvZgiIq1D_OU04K2L5jt9BIfZP1HTU1KwXireDs8ZxHmj9JNrXWYayC5kCAItg_9lnCvs__Y6wi5SP3zkBzABJZkWvUns-9TMwUCvY2YzcJYB7lbKnbvauyNXcbLKJx7pjnSyuQLWkEQvpyl5O315kgSugzXTHUh-ecdo-tRkUit1izIp2J9B6juiX9ZPAIPKM-jZvSKFhoRJoJXBsm7OwfEO2HWSFyJa0_qZ8yL1l0YfX3oMpDAVZObhPSpteMRHiMvi2NE6hfScUcJoL6wDl86R8XVmrzZ3lSAx_Scjg
+ca.crt:          7209 bytes
+
+
+Name:         default-dockercfg-dl4zb
+Namespace:    test
+Labels:       <none>
+Annotations:  kubernetes.io/service-account.name: default
+              kubernetes.io/service-account.uid: bdab7b7a-58be-49e8-8007-f0b42fdc7f7a
+              openshift.io/token-secret.name: default-token-lqkxx
+              openshift.io/token-secret.value:
+                eyJhbGciOiJSUzI1NiIsImtpZCI6IjhpdXZidUJkdmplSFZnYjdDOERXNDR2dFNiazBncVVuNnB3Yk5lUHJjNlUifQ.eyJpc3MiOiJrdWJlcm5ldGVzL3NlcnZpY2VhY2NvdW50Iiw...
+
+Type:  kubernetes.io/dockercfg
+
+Data
+====
+.dockercfg:  12146 bytes
+
+
+Name:         default-token-lqkxx
+Namespace:    test
+Labels:       kubernetes.io/legacy-token-last-used=2024-01-11
+Annotations:  kubernetes.io/created-by: openshift.io/create-dockercfg-secrets
+              kubernetes.io/service-account.name: default
+              kubernetes.io/service-account.uid: bdab7b7a-58be-49e8-8007-f0b42fdc7f7a
+
+Type:  kubernetes.io/service-account-token
+
+Data
+====
+ca.crt:          7209 bytes
+namespace:       4 bytes
+service-ca.crt:  8422 bytes
+token:           eyJhbGciOiJSUzI1NiIsImtpZCI6IjhpdXZidUJkdmplSFZnYjdDOERXNDR2dFNiazBncVVuNnB3Yk5lUHJjNlUifQ.eyJpc3MiOiJrdWJlcm5ldGVzL3NlcnZpY2VhY2NvdW50Iiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9uYW1lc3BhY2UiOiJ0ZXN0Iiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9zZWNyZXQubmFtZSI6ImRlZmF1bHQtdG9rZW4tbHFreHgiLCJrdWJlcm5ldGVzLmlvL3NlcnZpY2VhY2NvdW50L3NlcnZpY2UtYWNjb3VudC5uYW1lIjoiZGVmYXVsdCIsImt1YmVybmV0ZXMuaW8vc2VydmljZWFjY291bnQvc2VydmljZS1hY2NvdW50LnVpZCI6ImJkYWI3YjdhLTU4YmUtNDllOC04MDA3LWYwYjQyZmRjN2Y3YSIsInN1YiI6InN5c3RlbTpzZXJ2aWNlYWNjb3VudDp0ZXN0OmRlZmF1bHQifQ.lfCgiwO6ZUj0tnCAhK56N06q1cs-WoRPG_8OetpBQlqiUrrhL-VKlx5wXBQ2PI_HqnSnSUt6Su_p9Ac8tb4Z2aWr0wL7v1ZNAHyL5aRyDkDaYARFyh5n_nS4FpZ3yC6Mm8MmHbKbgeNPfg5v4m34W7HgA4ZxtLQcfN8otUaYIBjgUMnYWeitBE0ALFheUmo7lvCMZ7kR1w9HVuT_EoFa1ijOMHEZFg4tlahPc9e_niThNWXgx0las6mK1IbJmeJhWo_mPGavzWmIojTo7nRrhQvMS8L_jmPDfGnvsDUhJh25IVoy4VKPJiRVdJE8RM5ev6aFX57PS4pe-CngX0j6wu0nvLfv56WkIeFSyH9ZCNCp_6kilY9eu_00gqnG458NwtROL7ghi_WClY0kTfENXa4jEl9iKd8IorMgz46FNGG-WuMZO97XWFwEOhrFvXKBDz9nvIi0ByvOMbyqncEtHLO2QoAXKCKnhF7bSfqlDVF7C28rMDg16TTlf9eTrcIST7tyr6SM9g1CbtCl5bPNLSnDZA6T23IKIs5FVRN0YOz2TqIAkJvMv__76KLiuaoVjt9QPeCk4ufd5bkLencYf_p8gA7BH-fUm7S3ho7PhWz12iZCenVzMEONpV7mUJ1HinKAbONkaNK2WVh5_Q7KiWp4E238NJJySl66bSmyr0U
+
+
+Name:         deployer-dockercfg-j59b5
+Namespace:    test
+Labels:       <none>
+Annotations:  kubernetes.io/service-account.name: deployer
+              kubernetes.io/service-account.uid: 8d0bef0c-64df-4e52-99ec-36a5afe71e01
+              openshift.io/token-secret.name: deployer-token-tpb8z
+              openshift.io/token-secret.value:
+                eyJhbGciOiJSUzI1NiIsImtpZCI6IjhpdXZidUJkdmplSFZnYjdDOERXNDR2dFNiazBncVVuNnB3Yk5lUHJjNlUifQ.eyJpc3MiOiJrdWJlcm5ldGVzL3NlcnZpY2VhY2NvdW50Iiw...
+
+Type:  kubernetes.io/dockercfg
+
+Data
+====
+.dockercfg:  12194 bytes
+
+
+Name:         deployer-token-tpb8z
+Namespace:    test
+Labels:       <none>
+Annotations:  kubernetes.io/created-by: openshift.io/create-dockercfg-secrets
+              kubernetes.io/service-account.name: deployer
+              kubernetes.io/service-account.uid: 8d0bef0c-64df-4e52-99ec-36a5afe71e01
+
+Type:  kubernetes.io/service-account-token
+
+Data
+====
+ca.crt:          7209 bytes
+namespace:       4 bytes
+service-ca.crt:  8422 bytes
+token:           eyJhbGciOiJSUzI1NiIsImtpZCI6IjhpdXZidUJkdmplSFZnYjdDOERXNDR2dFNiazBncVVuNnB3Yk5lUHJjNlUifQ.eyJpc3MiOiJrdWJlcm5ldGVzL3NlcnZpY2VhY2NvdW50Iiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9uYW1lc3BhY2UiOiJ0ZXN0Iiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9zZWNyZXQubmFtZSI6ImRlcGxveWVyLXRva2VuLXRwYjh6Iiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9zZXJ2aWNlLWFjY291bnQubmFtZSI6ImRlcGxveWVyIiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9zZXJ2aWNlLWFjY291bnQudWlkIjoiOGQwYmVmMGMtNjRkZi00ZTUyLTk5ZWMtMzZhNWFmZTcxZTAxIiwic3ViIjoic3lzdGVtOnNlcnZpY2VhY2NvdW50OnRlc3Q6ZGVwbG95ZXIifQ.P40TcGYqG7-Kci79jrDAVz10gCF7byuCtb-x6LWe8yV4qgzcbiG1l_ZWEkvevDT7epeTyZkjTbzzPPRaDROUFbyUbYhNRSRix3ODibEaqgnnNq-PmVrEqqklPTIa3pSb3WTE0hQyp96KQ8f61z-vjwOIG1qUtcBR4LKzHtjL1-rCUgqP05lmWiWjxXj21oEGfoWCeMvZfZMthOqRI3TS4zn-TlTJ4I4eh0P4MuuYaRCU29F2ozDRfgj7SnYxT1WPc8jGKQdA2rM_vG5XxBJLXSRzqkIA27EFvxJTaVvMJZBcTtpV98uMLCH2_o0btnIAOLnbCTEwUo50T1ERMEaGrmcPyUj5ZTlDnbXnYi9IdKGZ3E2o9chcdDg3t8R-pI3B-sMQASkvMA7BKBFW6tG19-IpNSrNXs-ldFBSdx69Uwu8V8hzK6ZGrC6amKpjIl0YtZWNGGHDyRz98O_Iowb8QbHaayTC2ItaWLgUF_hbelY3MyxTX97gNm6FZYNrd_80Lmrv2-dlueGvLEfVP420qrhqdauhzyrcHzx57_BpYDTDh76gSaeEJlw_gLZ08a6x3sQw6lQom-oXWNsRwVRwzQNER1aa8jF--UzNX6Sv8Bw_abFNIVyC5JlaooTi3oPKVLNXBxd_fmmrGQEI2euVifDWlBXXdmJ4NbYSLNtyT4k
+
+
+Name:         sh.helm.release.v1.test-helm.v1
+Namespace:    test
+Labels:       modifiedAt=1705060929
+              name=test-helm
+              owner=helm
+              status=deployed
+              version=1
+Annotations:  <none>
+
+Type:  helm.sh/release.v1
+
+Data
+====
+release:  12104 bytes
+
+
+Name:         test-helm-dockercfg-w9fs5
+Namespace:    test
+Labels:       <none>
+Annotations:  kubernetes.io/service-account.name: test-helm
+              kubernetes.io/service-account.uid: b4e324be-b62f-45a7-a7d5-52f280d7332c
+              openshift.io/token-secret.name: test-helm-token-fnbdh
+              openshift.io/token-secret.value:
+                eyJhbGciOiJSUzI1NiIsImtpZCI6IjhpdXZidUJkdmplSFZnYjdDOERXNDR2dFNiazBncVVuNnB3Yk5lUHJjNlUifQ.eyJpc3MiOiJrdWJlcm5ldGVzL3NlcnZpY2VhY2NvdW50Iiw...
+
+Type:  kubernetes.io/dockercfg
+
+Data
+====
+.dockercfg:  12226 bytes
+
+
+Name:         test-helm-mariadb
+Namespace:    test
+Labels:       app.kubernetes.io/instance=test-helm
+              app.kubernetes.io/managed-by=Helm
+              app.kubernetes.io/name=mariadb
+              app.kubernetes.io/version=11.2.2
+              helm.sh/chart=mariadb-15.0.1
+Annotations:  meta.helm.sh/release-name: test-helm
+              meta.helm.sh/release-namespace: test
+
+Type:  Opaque
+
+Data
+====
+mariadb-root-password:  8 bytes
+
+
+Name:         test-helm-mariadb-dockercfg-8lt9t
+Namespace:    test
+Labels:       <none>
+Annotations:  kubernetes.io/service-account.name: test-helm-mariadb
+              kubernetes.io/service-account.uid: f492c011-0ec5-40e4-bfdb-0c842d050cf3
+              openshift.io/token-secret.name: test-helm-mariadb-token-zwj5n
+              openshift.io/token-secret.value:
+                eyJhbGciOiJSUzI1NiIsImtpZCI6IjhpdXZidUJkdmplSFZnYjdDOERXNDR2dFNiazBncVVuNnB3Yk5lUHJjNlUifQ.eyJpc3MiOiJrdWJlcm5ldGVzL3NlcnZpY2VhY2NvdW50Iiw...
+
+Type:  kubernetes.io/dockercfg
+
+Data
+====
+.dockercfg:  12530 bytes
+
+
+Name:         test-helm-mariadb-token-zwj5n
+Namespace:    test
+Labels:       <none>
+Annotations:  kubernetes.io/created-by: openshift.io/create-dockercfg-secrets
+              kubernetes.io/service-account.name: test-helm-mariadb
+              kubernetes.io/service-account.uid: f492c011-0ec5-40e4-bfdb-0c842d050cf3
+
+Type:  kubernetes.io/service-account-token
+
+Data
+====
+service-ca.crt:  8422 bytes
+token:           eyJhbGciOiJSUzI1NiIsImtpZCI6IjhpdXZidUJkdmplSFZnYjdDOERXNDR2dFNiazBncVVuNnB3Yk5lUHJjNlUifQ.eyJpc3MiOiJrdWJlcm5ldGVzL3NlcnZpY2VhY2NvdW50Iiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9uYW1lc3BhY2UiOiJ0ZXN0Iiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9zZWNyZXQubmFtZSI6InRlc3QtaGVsbS1tYXJpYWRiLXRva2VuLXp3ajVuIiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9zZXJ2aWNlLWFjY291bnQubmFtZSI6InRlc3QtaGVsbS1tYXJpYWRiIiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9zZXJ2aWNlLWFjY291bnQudWlkIjoiZjQ5MmMwMTEtMGVjNS00MGU0LWJmZGItMGM4NDJkMDUwY2YzIiwic3ViIjoic3lzdGVtOnNlcnZpY2VhY2NvdW50OnRlc3Q6dGVzdC1oZWxtLW1hcmlhZGIifQ.TtARXtKbRxwaYxKcUzobJcgbv-l_26cluePo-XjqIGQGLw3mBGGMyS7qiB9dwAcdpThTeAm2oKKfEcrjCAxaRaFoQDBmjVgkVX9Gd8xWRwonCiGLfaIk3pZLH5lxuVud3E-CaLlGpKd4HwHyEqEZtnpHKXgWNM4EFmcR3Ml-ik0C9b3eFV8TorxWdkh3NEjOLXWRlFqBCilU0ViAlwXHj3DuP5yFmPjXxgCsc0CJgjHoaxWcTt3PqtEvLjnptLj8C1sgq7hg6CvGLFLJFZVyqVBowtsXR-RwFfWHAtZ6OssjmrCqws8cnRN5N9OYAoMY1N8kZ3tjLV7BwSmvSVsyuuXuDyf-umkmwKCB1CbgFl4kqscNxbbrtvaMDDsm-e1KZf5CZd-hyMkTOkedXi3KfWlo3OfR_7TMFCrzbHzS90pgZgVPw9pHKCGESK-ArvH_dMhbpc0IHVIjltVD0sM9HFLzOH1tDyDxljZKH-MfDNYqgdISISgS14AXnTkY92C1Rlhsh7bbGDP5FRy7_sbDwxrtdt9D_BzWh_OpA-90G3a_6qLjXFor-so8JPoFSWhGpbXXpO9Y2QzvZA_LP24GY5Or2dGWhOxKTpLoz6XUFsRQGOkaHCUck15QYfJC7IYVJVWBFVizNbD0Qdn4abI-M_AK1ArCBdBCvfSPZW-LrxA
+ca.crt:          7209 bytes
+namespace:       4 bytes
+
+
+Name:         test-helm-token-fnbdh
+Namespace:    test
+Labels:       <none>
+Annotations:  kubernetes.io/created-by: openshift.io/create-dockercfg-secrets
+              kubernetes.io/service-account.name: test-helm
+              kubernetes.io/service-account.uid: b4e324be-b62f-45a7-a7d5-52f280d7332c
+
+Type:  kubernetes.io/service-account-token
+
+Data
+====
+ca.crt:          7209 bytes
+namespace:       4 bytes
+service-ca.crt:  8422 bytes
+token:           eyJhbGciOiJSUzI1NiIsImtpZCI6IjhpdXZidUJkdmplSFZnYjdDOERXNDR2dFNiazBncVVuNnB3Yk5lUHJjNlUifQ.eyJpc3MiOiJrdWJlcm5ldGVzL3NlcnZpY2VhY2NvdW50Iiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9uYW1lc3BhY2UiOiJ0ZXN0Iiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9zZWNyZXQubmFtZSI6InRlc3QtaGVsbS10b2tlbi1mbmJkaCIsImt1YmVybmV0ZXMuaW8vc2VydmljZWFjY291bnQvc2VydmljZS1hY2NvdW50Lm5hbWUiOiJ0ZXN0LWhlbG0iLCJrdWJlcm5ldGVzLmlvL3NlcnZpY2VhY2NvdW50L3NlcnZpY2UtYWNjb3VudC51aWQiOiJiNGUzMjRiZS1iNjJmLTQ1YTctYTdkNS01MmYyODBkNzMzMmMiLCJzdWIiOiJzeXN0ZW06c2VydmljZWFjY291bnQ6dGVzdDp0ZXN0LWhlbG0ifQ.YGh43gb1hYvWsHmEoaGawMRMCRQg6QR-zr4QXfw1ln6m0tCJ9UvcBkIFm3s0eYYRGpUU_EHmpOOUeUk6X4fXD3lqmhE-ZnvZ_W2ebb2lJiydsmRCCjrg9HUG36cif310e4zKfJxiI_jkpDx1uDy2KVCLOR0CcL9oK224KEJ280diAgWbkgwjEVp1glFlN0xxjXWlhdfU9O5P9fOYEUiNAsgnr0oDAHlx_9VZoMtyzl_qTXzCTNvzkD4l9m_s8F_nfLCRG6k36cF4Nlo82c8wxg8XFwOR2FwVKPORfZnlKfow9LQIm4cq4MdWP0s1Aip_eZrkXtqE7n0pW4WUup3LuLFClzF7LMfdDAuBXsvqy79qfHLl4lbZo0BjBSyJL1Erb4b2HuMRLAwSYB3y2_h4XxBR6drjM88Wa0VkXk6VhTPTjdFRZC5TOf-2gxOW6_TTAcYpoRzhr-uE1Gqp80eyUFhHplyBeq4cG8L67IElapnxjRF_szrTAiMhFWMevcnw6U7pFlh-WuvM5qYCxeAMVcFk_dpT0fa8BxqTWRz5gN37Jz_EANzOwXHjluEQgG7MRMEUt0Uz_Q4TCFpivpTakz7yivQdZdJCXaV0O9sDjjNCPJikOavGj3-Iwm3PQ1mjiM23pUAgwwEwVv-jqfahfTUNVSkLg4vnLTME0i8TfCk
